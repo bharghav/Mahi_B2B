@@ -3,7 +3,7 @@ import { Card, CardContent } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
 import { ArrowRight, Users, ShoppingCart, TrendingUp } from "lucide-react";
 import { Link } from "react-router-dom";
-import { Logo } from "./assets/logo";
+import Logo from '../assets/logo.png'; // adjust the path as needed
 
 const Index = () => {
   const categories = [
