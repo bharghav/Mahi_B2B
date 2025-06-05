@@ -3,12 +3,13 @@ import { Card, CardContent } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
 import { ArrowRight, Users, ShoppingCart, TrendingUp } from "lucide-react";
 import { Link } from "react-router-dom";
+import { Logo } from "../assets/logo";
 
 const Index = () => {
   const categories = [
     {
       id: 1,
-      name: "Industrial Equipment",
+      name: "Crop Production",
       description: "Heavy machinery, tools, and manufacturing equipment",
       image: "https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?w=500&h=300&fit=crop",
       productCount: "2,500+",
@@ -16,7 +17,7 @@ const Index = () => {
     },
     {
       id: 2,
-      name: "Electronics & Components",
+      name: "Horticulture",
       description: "Semiconductors, circuits, and electronic parts",
       image: "https://images.unsplash.com/photo-1518770660439-4636190af475?w=500&h=300&fit=crop",
       productCount: "5,200+",
@@ -69,8 +70,8 @@ const Index = () => {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex justify-between items-center py-4">
             <div className="flex items-center">
-              <h1 className="text-2xl font-bold text-blue-600">Mahi</h1>
-              <span className="ml-2 text-sm text-gray-500">B2B Marketplace</span>
+              <h1 className="text-2xl font-bold text-blue-600"><img src={Logo} with="500" height="100" /></h1>
+              {/* <span className="ml-2 text-sm text-gray-500">B2B Marketplace</span> */}
             </div>
             <div className="flex space-x-4">
               <Link to="/seller-login">
