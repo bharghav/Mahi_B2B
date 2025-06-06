@@ -119,7 +119,7 @@ const BuyerDashboard = () => {
           <div className="flex justify-between items-center py-4">
             <div className="flex items-center space-x-4">
               <Link to="/" className="text-2xl font-bold text-blue-600">
-                TradeBridge
+                Mahi
               </Link>
               <span className="text-gray-500">|</span>
               <h1 className="text-xl font-semibold text-gray-900">Buyer Dashboard</h1>

@@ -5,6 +5,7 @@ import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import { Label } from "@/components/ui/label";
 import { useToast } from "@/hooks/use-toast";
+import Logo from "../assets/logo.png";
 
 const BuyerLogin = () => {
   const [email, setEmail] = useState("");
@@ -26,8 +27,9 @@ const BuyerLogin = () => {
       <div className="max-w-md w-full space-y-8">
         <div className="text-center">
           <Link to="/" className="inline-block">
-            <h1 className="text-3xl font-bold text-blue-600">TradeBridge</h1>
-            <p className="text-sm text-gray-500">B2B Marketplace</p>
+            <img src={Logo} with="500" height="100" />
+            {/* <h1 className="text-3xl font-bold text-blue-600">TradeBridge</h1>
+            <p className="text-sm text-gray-500">B2B Marketplace</p> */}
           </Link>
           <h2 className="mt-6 text-3xl font-bold text-gray-900">Buyer Login</h2>
           <p className="mt-2 text-sm text-gray-600">

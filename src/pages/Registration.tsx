@@ -9,6 +9,7 @@ import { Textarea } from "@/components/ui/textarea";
 import { Badge } from "@/components/ui/badge";
 import { Users, ShoppingCart } from "lucide-react";
 import { useToast } from "@/hooks/use-toast";
+import Logo from '../assets/logo.png'; // adjust the path as needed
 
 const Registration = () => {
   const [userType, setUserType] = useState<"buyer" | "seller" | null>(null);
@@ -48,10 +49,11 @@ const Registration = () => {
         <div className="max-w-4xl w-full">
           <div className="text-center mb-8">
             <Link to="/" className="inline-block">
-              <h1 className="text-3xl font-bold text-blue-600">TradeBridge</h1>
-              <p className="text-sm text-gray-500">B2B Marketplace</p>
+              <img src={Logo} width="500" height="300" />
+              {/* <h1 className="text-3xl font-bold text-blue-600">TradeBridge</h1>
+              <p className="text-sm text-gray-500">B2B Marketplace</p> */}
             </Link>
-            <h2 className="mt-6 text-3xl font-bold text-gray-900">Join TradeBridge</h2>
+            <h2 className="mt-6 text-3xl font-bold text-gray-900">Join Mahi</h2>
             <p className="mt-2 text-lg text-gray-600">Choose your account type to get started</p>
           </div>
 
@@ -110,8 +112,9 @@ const Registration = () => {
       <div className="max-w-2xl mx-auto">
         <div className="text-center mb-8">
           <Link to="/" className="inline-block">
-            <h1 className="text-3xl font-bold text-blue-600">TradeBridge</h1>
-            <p className="text-sm text-gray-500">B2B Marketplace</p>
+            <img src={Logo} width="500" height="300" />
+            {/* <h1 className="text-3xl font-bold text-blue-600">TradeBridge</h1>
+            <p className="text-sm text-gray-500">B2B Marketplace</p> */}
           </Link>
           <h2 className="mt-6 text-3xl font-bold text-gray-900">
             {userType === "buyer" ? "Buyer" : "Seller"} Registration

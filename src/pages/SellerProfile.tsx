@@ -4,6 +4,7 @@ import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
 import { Badge } from "@/components/ui/badge";
 import { ArrowLeft, Star, MapPin, Shield, Award, Calendar, Users } from "lucide-react";
+import Logo from '../assets/logo.png'; // adjust the path as needed
 
 const SellerProfile = () => {
   const { sellerId } = useParams();
@@ -79,8 +80,9 @@ const SellerProfile = () => {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex justify-between items-center py-4">
             <Link to="/" className="flex items-center">
-              <h1 className="text-2xl font-bold text-blue-600">TradeBridge</h1>
-              <span className="ml-2 text-sm text-gray-500">B2B Marketplace</span>
+              <img src={Logo} width="500" height="300" />
+              {/* <h1 className="text-2xl font-bold text-blue-600">TradeBridge</h1>
+              <span className="ml-2 text-sm text-gray-500">B2B Marketplace</span> */}
             </Link>
             <div className="flex space-x-4">
               <Link to="/seller-login">

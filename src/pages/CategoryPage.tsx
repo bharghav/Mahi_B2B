@@ -2,6 +2,7 @@ import { useParams, Link } from "react-router-dom";
 import { Card, CardContent } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
 import { ArrowRight, ArrowLeft } from "lucide-react";
+import Logo from '../assets/logo.png'; // adjust the path as needed
 
 const CategoryPage = () => {
   const { categoryId } = useParams();
@@ -73,8 +74,9 @@ const CategoryPage = () => {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex justify-between items-center py-4">
             <Link to="/" className="flex items-center">
-              <h1 className="text-2xl font-bold text-blue-600">TradeBridge</h1>
-              <span className="ml-2 text-sm text-gray-500">B2B Marketplace</span>
+              <img src={Logo} with="500" height="100" />
+              {/* <h1 className="text-2xl font-bold text-blue-600">TradeBridge</h1>
+              <span className="ml-2 text-sm text-gray-500">B2B Marketplace</span> */}
             </Link>
             <div className="flex space-x-4">
               <Link to="/seller-login">
