@@ -6,6 +6,7 @@ import { Badge } from "@/components/ui/badge";
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
 import { BarChart, Bar, XAxis, YAxis, CartesianGrid, Tooltip, ResponsiveContainer } from 'recharts';
 import { TrendingUp, Users, ShoppingCart, DollarSign, Bell, Eye, CheckCircle, Clock } from "lucide-react";
+import Logo from '../assets/logo.png'; // adjust the path as needed
 
 const SellerDashboard = () => {
   const [stats] = useState({
@@ -82,6 +83,7 @@ const SellerDashboard = () => {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex justify-between items-center py-4">
             <div>
+              <img src={Logo} width="100" height="30" />
               <h1 className="text-2xl font-bold text-gray-900">Seller Dashboard</h1>
               <p className="text-sm text-gray-600">Precision Tech Industries</p>
             </div>
