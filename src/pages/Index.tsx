@@ -181,7 +181,7 @@ const Index = () => {
             <Button size="lg" variant="secondary" className="px-8 py-3">
               Request a Quote
             </Button>
-            <Button size="lg" variant="outline" className="px-8 py-3 border-white text-white hover:bg-white hover:text-blue-600">
+            <Button size="lg" variant="outline" className="px-8 py-3 border-white hover:bg-white hover:text-blue-600">
               Learn More
             </Button>
           </div>
