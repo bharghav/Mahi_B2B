@@ -10,7 +10,7 @@ const Index = () => {
     {
       id: 1,
       name: "Crop Production",
-      description: "Wheat, Maize, Rice, Millets and Pulses",
+      description: "Grains & Cereals, Pulses & Legumes, Oilseeds, Fruits, Vegetables, Spices & Herbs and Plantation Crops",
       image: "https://images.unsplash.com/photo-1733744330650-fa7a26f7541c?w=500&h=300&fit=crop",
       productCount: "2,500+",
       color: "bg-blue-50 border-blue-200"
@@ -43,7 +43,7 @@ const Index = () => {
       id: 5,
       name: "Agrochemicals & Inputs",
       description: "Vehicle components, accessories, and automotive supplies",
-      image: "https://images.unsplash.com/photo-1726743887194-1f541e810221?w=500&h=300&fit=crop",
+      image: "https://plus.unsplash.com/premium_photo-1726743887194-1f541e810221?w=500&h=300&fit=crop",
       productCount: "4,100+",
       color: "bg-red-50 border-red-200"
     },

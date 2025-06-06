@@ -9,43 +9,43 @@ const CategoryPage = () => {
   
   const categoryData: Record<string, any> = {
     "1": {
-      name: "Industrial Equipment",
-      description: "Heavy machinery, tools, and manufacturing equipment for industrial applications",
+      name: "Crop Production",
+      description: "Grains & Cereals, tools, and manufacturing equipment for industrial applications",
       subcategories: [
         {
           id: 11,
-          name: "Manufacturing Machinery",
-          image: "https://images.unsplash.com/photo-1565087890171-5aa4ec73ac97?w=400&h=250&fit=crop",
+          name: "Grains & Cereals",
+          image: "https://images.unsplash.com/photo-1623066798929-946425dbe1b0?w=400&h=250&fit=crop",
           productCount: 850
         },
         {
           id: 12,
-          name: "Construction Equipment",
-          image: "https://images.unsplash.com/photo-1581092160562-40aa08e78837?w=400&h=250&fit=crop",
+          name: "Pulses & Legumes",
+          image: "https://images.unsplash.com/photo-1715944486739-d32f7852a66f?w=400&h=250&fit=crop",
           productCount: 620
         },
         {
           id: 13,
-          name: "Material Handling",
-          image: "https://images.unsplash.com/photo-1586528116311-ad8dd3c8310d?w=400&h=250&fit=crop",
+          name: "Oilseeds",
+          image: "https://images.unsplash.com/photo-1681567849468-ca8e02956c22?w=400&h=250&fit=crop",
           productCount: 430
         },
         {
           id: 14,
-          name: "Power Tools",
-          image: "https://images.unsplash.com/photo-1572981779307-38b8cabb2407?w=400&h=250&fit=crop",
+          name: "Fruits",
+          image: "https://images.unsplash.com/photo-1586099529369-00432c0492cd?w=400&h=250&fit=crop",
           productCount: 320
         },
         {
           id: 15,
-          name: "Safety Equipment",
-          image: "https://images.unsplash.com/photo-1578662996442-48f60103fc96?w=400&h=250&fit=crop",
+          name: "Vegetables",
+          image: "https://images.unsplash.com/photo-1690293319115-7c444db81c7d?w=400&h=250&fit=crop",
           productCount: 280
         },
         {
           id: 16,
-          name: "Testing & Measurement",
-          image: "https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?w=400&h=250&fit=crop",
+          name: "Spices & Herbs",
+          image: "https://images.unsplash.com/photo-1546477387-7a01c38f0703?w=400&h=250&fit=crop",
           productCount: 190
         }
       ]
