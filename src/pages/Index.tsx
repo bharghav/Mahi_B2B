@@ -10,8 +10,8 @@ const Index = () => {
     {
       id: 1,
       name: "Crop Production",
-      description: "Heavy machinery, tools, and manufacturing equipment",
-      image: "https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?w=500&h=300&fit=crop",
+      description: "Heavy machinery, tools, and crop production",
+      image: "https://images.unsplash.com/photo-1733744330650-fa7a26f7541c?w=500&h=300&fit=crop",
       productCount: "2,500+",
       color: "bg-blue-50 border-blue-200"
     },
@@ -19,29 +19,29 @@ const Index = () => {
       id: 2,
       name: "Horticulture",
       description: "Semiconductors, circuits, and electronic parts",
-      image: "https://images.unsplash.com/photo-1518770660439-4636190af475?w=500&h=300&fit=crop",
+      image: "https://images.unsplash.com/photo-1709364533365-5989c91bf949?w=500&h=300&fit=crop",
       productCount: "5,200+",
       color: "bg-green-50 border-green-200"
     },
     {
       id: 3,
-      name: "Raw Materials",
+      name: "Livestock & Animal Husbandry",
       description: "Metals, chemicals, plastics, and construction materials",
-      image: "https://images.unsplash.com/photo-1504328345606-18bbc8c9d7d1?w=500&h=300&fit=crop",
+      image: "https://images.unsplash.com/photo-1623005146739-befba36689cf?w=500&h=300&fit=crop",
       productCount: "3,800+",
       color: "bg-orange-50 border-orange-200"
     },
     {
       id: 4,
-      name: "Textiles & Apparel",
+      name: "Farm Machinery & Equipment",
       description: "Fabrics, clothing, and textile manufacturing supplies",
-      image: "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=500&h=300&fit=crop",
+      image: "https://images.unsplash.com/photo-1617730873122-64508f39e003?w=500&h=300&fit=crop",
       productCount: "1,900+",
       color: "bg-purple-50 border-purple-200"
     },
     {
       id: 5,
-      name: "Automotive Parts",
+      name: "Agrochemicals & Inputs",
       description: "Vehicle components, accessories, and automotive supplies",
       image: "https://images.unsplash.com/photo-1486262715619-67b85e0b08d3?w=500&h=300&fit=crop",
       productCount: "4,100+",
@@ -49,7 +49,7 @@ const Index = () => {
     },
     {
       id: 6,
-      name: "Food & Agriculture",
+      name: "Seeds",
       description: "Agricultural products, food ingredients, and processing equipment",
       image: "https://images.unsplash.com/photo-1500382017468-9049fed747ef?w=500&h=300&fit=crop",
       productCount: "2,700+",
