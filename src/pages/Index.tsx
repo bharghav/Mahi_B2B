@@ -10,7 +10,7 @@ const Index = () => {
     {
       id: 1,
       name: "Crop Production",
-      description: "Heavy machinery, tools, and crop production",
+      description: "Wheat, Maize, Rice, Millets and Pulses",
       image: "https://images.unsplash.com/photo-1733744330650-fa7a26f7541c?w=500&h=300&fit=crop",
       productCount: "2,500+",
       color: "bg-blue-50 border-blue-200"
@@ -18,7 +18,7 @@ const Index = () => {
     {
       id: 2,
       name: "Horticulture",
-      description: "Semiconductors, circuits, and electronic parts",
+      description: "gardening, plant production and propagation, arboriculture, landscaping, floriculture",
       image: "https://images.unsplash.com/photo-1709364533365-5989c91bf949?w=500&h=300&fit=crop",
       productCount: "5,200+",
       color: "bg-green-50 border-green-200"
@@ -26,32 +26,32 @@ const Index = () => {
     {
       id: 3,
       name: "Livestock & Animal Husbandry",
-      description: "Metals, chemicals, plastics, and construction materials",
+      description: "livestock farming, poultry farming, fish farming (aquaculture), and beekeeping (apiculture)",
       image: "https://images.unsplash.com/photo-1623005146739-befba36689cf?w=500&h=300&fit=crop",
       productCount: "3,800+",
       color: "bg-orange-50 border-orange-200"
     },
-    {
-      id: 4,
-      name: "Farm Machinery & Equipment",
-      description: "Fabrics, clothing, and textile manufacturing supplies",
-      image: "https://images.unsplash.com/photo-1617730873122-64508f39e003?w=500&h=300&fit=crop",
-      productCount: "1,900+",
-      color: "bg-purple-50 border-purple-200"
-    },
+    // {
+    //   id: 4,
+    //   name: "Farm Machinery & Equipment",
+    //   description: "Fabrics, clothing, and textile manufacturing supplies",
+    //   image: "https://images.unsplash.com/photo-1617730873122-64508f39e003?w=500&h=300&fit=crop",
+    //   productCount: "1,900+",
+    //   color: "bg-purple-50 border-purple-200"
+    // },
     {
       id: 5,
       name: "Agrochemicals & Inputs",
       description: "Vehicle components, accessories, and automotive supplies",
-      image: "https://images.unsplash.com/photo-1486262715619-67b85e0b08d3?w=500&h=300&fit=crop",
+      image: "https://images.unsplash.com/photo-1726743887194-1f541e810221?w=500&h=300&fit=crop",
       productCount: "4,100+",
       color: "bg-red-50 border-red-200"
     },
     {
       id: 6,
       name: "Seeds",
-      description: "Agricultural products, food ingredients, and processing equipment",
-      image: "https://images.unsplash.com/photo-1500382017468-9049fed747ef?w=500&h=300&fit=crop",
+      description: "Nucleus, Breeder, Foundation, and Certified seeds",
+      image: "https://plus.unsplash.com/premium_photo-1705146640334-1277c28ddd1a?w=500&h=300&fit=crop",
       productCount: "2,700+",
       color: "bg-yellow-50 border-yellow-200"
     }
