@@ -1,5 +1,6 @@
 
 import { useState } from "react";
+import { Link } from "react-router-dom";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
 import { Badge } from "@/components/ui/badge";
@@ -82,10 +83,17 @@ const SellerDashboard = () => {
       <header className="bg-white shadow-sm border-b">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex justify-between items-center py-4">
-            <div>
+            {/* <div>
               <img src={Logo} width="100" height="30" />
               <h1 className="text-2xl font-bold text-gray-900">Seller Dashboard</h1>
               <p className="text-sm text-gray-600">Precision Tech Industries</p>
+            </div> */}
+            <div className="flex items-center space-x-4">
+              <Link to="/" className="text-2xl font-bold text-blue-600">
+                <img src={Logo} with="500" height="100" />
+              </Link>
+              <span className="text-gray-500">|</span>
+              <h1 className="text-xl font-semibold text-gray-900">Seller Dashboard</h1>
             </div>
             <div className="flex items-center space-x-4">
               <Button variant="outline" className="relative">
