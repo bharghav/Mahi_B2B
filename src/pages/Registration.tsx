@@ -112,7 +112,7 @@ const Registration = () => {
       <div className="max-w-2xl mx-auto">
         <div className="text-center mb-8">
           <Link to="/" className="inline-block">
-            <img src={Logo} width="500" height="300" />
+            <img src={Logo} width="100" height="30" />
             {/* <h1 className="text-3xl font-bold text-blue-600">TradeBridge</h1>
             <p className="text-sm text-gray-500">B2B Marketplace</p> */}
           </Link>
