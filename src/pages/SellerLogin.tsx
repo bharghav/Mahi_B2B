@@ -26,7 +26,7 @@ const SellerLogin = () => {
       <div className="max-w-md w-full space-y-8">
         <div className="text-center">
           <Link to="/" className="inline-block">
-            <img src={Logo} width="500" height="300" />
+            <img src={Logo} width="100" height="34" />
             {/* <h1 className="text-3xl font-bold text-blue-600">TradeBridge</h1>
             <p className="text-sm text-gray-500">B2B Marketplace</p> */}
           </Link>

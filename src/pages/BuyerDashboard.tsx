@@ -7,6 +7,7 @@ import { Badge } from "@/components/ui/badge";
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
 import { Table, TableBody, TableCell, TableHead, TableHeader, TableRow } from "@/components/ui/table";
 import { Bell, Package, FileText, ShoppingCart } from "lucide-react";
+import Logo from '../assets/logo.png'; // adjust the path as needed
 
 const BuyerDashboard = () => {
   const [activeTab, setActiveTab] = useState("overview");
@@ -119,7 +120,7 @@ const BuyerDashboard = () => {
           <div className="flex justify-between items-center py-4">
             <div className="flex items-center space-x-4">
               <Link to="/" className="text-2xl font-bold text-blue-600">
-                Mahi
+                <img src={Logo} with="500" height="100" />
               </Link>
               <span className="text-gray-500">|</span>
               <h1 className="text-xl font-semibold text-gray-900">Buyer Dashboard</h1>
